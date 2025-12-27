@@ -1,0 +1,53 @@
+[
+  {
+    "timestamp": "2025-12-27T18:24:08.586187",
+    "data": {
+      "id": "9d827605-2e0c-4a15-b708-ded946c9bb42",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Sarah Johnson",
+        "age_years": "34",
+        "sex": "Female",
+        "diagnosis": "Acute bacterial sinusitis",
+        "symptom_duration": "5 days",
+        "presenting_symptoms": [
+          "Nasal congestion",
+          "Thick yellow nasal discharge",
+          "Facial pain and pressure",
+          "Headache",
+          "Reduced sense of smell"
+        ],
+        "allergies": "No known allergies",
+        "current_medications": "Ibuprofen 400mg as needed for pain relief",
+        "past_medical_history": "No significant past medical history",
+        "medications": [
+          {
+            "title": "Amoxicillin-Clavulanate 875mg/125mg",
+            "instructions": [
+              "Take twice daily with food",
+              "Continue for 10 days"
+            ]
+          },
+          {
+            "title": "Saline nasal rinses",
+            "instructions": [
+              "Use twice daily"
+            ]
+          }
+        ],
+        "followup_text": "Follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if severe headache, vision changes, or high fever develops.",
+        "date": "2025-12-27"
+      },
+      "raw_transcript": "Go. Anya, mascara, 18-year female, diagnosis: acne, persistent grade 2, allergies to sulphur and penicillin, current medication: none, medical history: none, diag: baskari. ",
+      "clean_transcript": "Go. Anya, mascara, 18-year female, diagnosis: acne, persistent grade 2, allergies to sulphur and penicillin, current medication: none, medical history: none, diag: baskari. ",
+      "warnings": [
+        "Using demo data - regex extraction incomplete"
+      ],
+      "created_at": "2025-12-27 18:24:08.578813",
+      "approved_at": null,
+      "preview_pdf_path": "../data/9d827605-2e0c-4a15-b708-ded946c9bb42_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/9d827605-2e0c-4a15-b708-ded946c9bb42_preview.docx"
+    }
+  }
+]

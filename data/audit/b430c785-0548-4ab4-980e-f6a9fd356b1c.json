@@ -1,0 +1,35 @@
+[
+  {
+    "timestamp": "2025-12-27T16:44:20.100524",
+    "data": {
+      "id": "b430c785-0548-4ab4-980e-f6a9fd356b1c",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "",
+        "age_years": "19",
+        "sex": "",
+        "diagnosis": "",
+        "symptom_duration": "19 years",
+        "presenting_symptoms": [],
+        "allergies": "",
+        "current_medications": "",
+        "past_medical_history": "",
+        "medications": [],
+        "followup_text": "",
+        "date": ""
+      },
+      "raw_transcript": "jiya kapadia 19 years old diagnosed with laser hair removal",
+      "clean_transcript": "jiya kapadia 19 years old diagnosed with laser hair removal",
+      "warnings": [
+        "Patient name not found in transcript",
+        "Sex not specified in transcript",
+        "Diagnosis not clearly identified in transcript"
+      ],
+      "created_at": "2025-12-27 16:44:20.094592",
+      "approved_at": null,
+      "preview_pdf_path": "../data/b430c785-0548-4ab4-980e-f6a9fd356b1c_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/b430c785-0548-4ab4-980e-f6a9fd356b1c_preview.docx"
+    }
+  }
+]

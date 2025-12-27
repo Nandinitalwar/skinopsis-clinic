@@ -1,0 +1,40 @@
+[
+  {
+    "timestamp": "2025-12-27T16:30:22.829782",
+    "data": {
+      "id": "4a9e595e-529f-4385-9543-347abf756755",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "laser treatment",
+        "age_years": "",
+        "sex": "",
+        "diagnosis": "",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "",
+        "current_medications": "",
+        "past_medical_history": "",
+        "medications": [
+          {
+            "title": "19-year-old",
+            "instructions": []
+          }
+        ],
+        "followup_text": "",
+        "date": ""
+      },
+      "raw_transcript": "25-year-old patient laser treatment 19-year-old. ",
+      "clean_transcript": "25-year-old patient laser treatment 19-year-old. ",
+      "warnings": [
+        "Age not found in transcript",
+        "Sex not specified in transcript",
+        "Diagnosis not clearly identified in transcript"
+      ],
+      "created_at": "2025-12-27 16:30:22.821116",
+      "approved_at": null,
+      "preview_pdf_path": "../data/4a9e595e-529f-4385-9543-347abf756755_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/4a9e595e-529f-4385-9543-347abf756755_preview.docx"
+    }
+  }
+]

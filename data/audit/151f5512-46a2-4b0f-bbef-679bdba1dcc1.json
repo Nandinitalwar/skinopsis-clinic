@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2025-12-27T17:02:51.825013",
+    "data": {
+      "id": "151f5512-46a2-4b0f-bbef-679bdba1dcc1",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Sarah Johnson",
+        "age_years": "",
+        "sex": "Female",
+        "diagnosis": "",
+        "symptom_duration": "5\r\n   days",
+        "presenting_symptoms": [
+          "acute bacterial sinusitis",
+          "for 5\r\n   days"
+        ],
+        "allergies": ". She is",
+        "current_medications": "ibuprofen 400mg as needed for pain relief",
+        "past_medical_history": ". I am",
+        "medications": [
+          {
+            "title": "ing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10",
+            "instructions": [
+              "days"
+            ]
+          }
+        ],
+        "followup_text": "in 7-10 days if symptoms do not improve or worsen",
+        "date": ""
+      },
+      "raw_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.\r\n",
+      "clean_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.\r\n",
+      "warnings": [
+        "Age not found in transcript",
+        "Diagnosis not clearly identified in transcript"
+      ],
+      "created_at": "2025-12-27 17:02:51.818620",
+      "approved_at": null,
+      "preview_pdf_path": "../data/151f5512-46a2-4b0f-bbef-679bdba1dcc1_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/151f5512-46a2-4b0f-bbef-679bdba1dcc1_preview.docx"
+    }
+  }
+]

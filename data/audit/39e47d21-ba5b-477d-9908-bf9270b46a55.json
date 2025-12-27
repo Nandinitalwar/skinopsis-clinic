@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2025-12-27T15:55:57.426324",
+    "data": {
+      "id": "39e47d21-ba5b-477d-9908-bf9270b46a55",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Sarah Johnson",
+        "age_years": "34",
+        "sex": "Female",
+        "diagnosis": "",
+        "symptom_duration": "34 year",
+        "presenting_symptoms": [
+          "acute bronchitis",
+          "for about 5 days"
+        ],
+        "allergies": ". She is not",
+        "current_medications": "any medications",
+        "past_medical_history": ". I am",
+        "medications": [
+          {
+            "title": "s",
+            "instructions": []
+          }
+        ],
+        "followup_text": "in one week if symptoms persist or worsen",
+        "date": ""
+      },
+      "raw_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen. Return sooner if experiencing difficulty breathing or high fever.",
+      "clean_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen. Return sooner if experiencing difficulty breathing or high fever.",
+      "warnings": [
+        "Diagnosis not clearly identified in transcript"
+      ],
+      "created_at": "2025-12-27 15:55:57.415590",
+      "approved_at": null,
+      "preview_pdf_path": "../data/39e47d21-ba5b-477d-9908-bf9270b46a55_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/39e47d21-ba5b-477d-9908-bf9270b46a55_preview.docx"
+    }
+  }
+]

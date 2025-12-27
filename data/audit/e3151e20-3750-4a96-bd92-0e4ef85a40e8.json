@@ -1,0 +1,31 @@
+[
+  {
+    "timestamp": "2025-12-27T18:26:01.227202",
+    "data": {
+      "id": "e3151e20-3750-4a96-bd92-0e4ef85a40e8",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "anya mascara",
+        "age_years": "18",
+        "sex": "",
+        "diagnosis": "",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "",
+        "current_medications": "",
+        "past_medical_history": "",
+        "medications": [],
+        "followup_text": "",
+        "date": "2025-12-27"
+      },
+      "raw_transcript": "anya mascara 18 yers old",
+      "clean_transcript": "anya mascara 18 yers old",
+      "warnings": [],
+      "created_at": "2025-12-27 18:26:01.222823",
+      "approved_at": null,
+      "preview_pdf_path": "../data/e3151e20-3750-4a96-bd92-0e4ef85a40e8_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/e3151e20-3750-4a96-bd92-0e4ef85a40e8_preview.docx"
+    }
+  }
+]

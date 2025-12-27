@@ -1,0 +1,35 @@
+[
+  {
+    "timestamp": "2025-12-27T16:31:11.248273",
+    "data": {
+      "id": "86c64e4a-e556-4c45-af12-79d6f78fb353",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "data",
+        "age_years": "",
+        "sex": "",
+        "diagnosis": "",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "",
+        "current_medications": "",
+        "past_medical_history": "",
+        "medications": [],
+        "followup_text": "",
+        "date": ""
+      },
+      "raw_transcript": "test patient data",
+      "clean_transcript": "test patient data",
+      "warnings": [
+        "Age not found in transcript",
+        "Sex not specified in transcript",
+        "Diagnosis not clearly identified in transcript"
+      ],
+      "created_at": "2025-12-27 16:31:11.239134",
+      "approved_at": null,
+      "preview_pdf_path": "../data/86c64e4a-e556-4c45-af12-79d6f78fb353_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/86c64e4a-e556-4c45-af12-79d6f78fb353_preview.docx"
+    }
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "timestamp": "2025-12-27T18:27:07.575748",
+    "data": {
+      "id": "3f763572-616a-4871-9ff9-f8df69d4d640",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Anya",
+        "age_years": "18",
+        "sex": "",
+        "diagnosis": "",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "Sulphur, Penicillin",
+        "current_medications": "",
+        "past_medical_history": "No Medical History",
+        "medications": [],
+        "followup_text": "",
+        "date": "2025-12-27"
+      },
+      "raw_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "clean_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "warnings": [],
+      "created_at": "2025-12-27 18:27:07.570606",
+      "approved_at": null,
+      "preview_pdf_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.docx"
+    }
+  },
+  {
+    "timestamp": "2025-12-27T18:27:40.958480",
+    "data": {
+      "id": "3f763572-616a-4871-9ff9-f8df69d4d640",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Anya",
+        "age_years": "18",
+        "sex": "Female",
+        "diagnosis": "",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "Sulphur, Penicillin",
+        "current_medications": "",
+        "past_medical_history": "No Medical History",
+        "medications": [],
+        "followup_text": "",
+        "date": "2025-12-27"
+      },
+      "raw_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "clean_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "warnings": [],
+      "created_at": "2025-12-27 18:27:07.570606",
+      "approved_at": null,
+      "preview_pdf_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.docx"
+    }
+  },
+  {
+    "timestamp": "2025-12-27T18:27:42.928684",
+    "data": {
+      "id": "3f763572-616a-4871-9ff9-f8df69d4d640",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Anya",
+        "age_years": "18",
+        "sex": "Female",
+        "diagnosis": "",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "Sulphur, Penicillin",
+        "current_medications": "",
+        "past_medical_history": "No Medical History",
+        "medications": [],
+        "followup_text": "",
+        "date": "2025-12-27"
+      },
+      "raw_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "clean_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "warnings": [],
+      "created_at": "2025-12-27 18:27:07.570606",
+      "approved_at": null,
+      "preview_pdf_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.docx"
+    }
+  },
+  {
+    "timestamp": "2025-12-27T18:27:44.861019",
+    "data": {
+      "id": "3f763572-616a-4871-9ff9-f8df69d4d640",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Anya",
+        "age_years": "18",
+        "sex": "Female",
+        "diagnosis": "",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "Sulphur, Penicillin",
+        "current_medications": "",
+        "past_medical_history": "No Medical History",
+        "medications": [],
+        "followup_text": "",
+        "date": "2025-12-27"
+      },
+      "raw_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "clean_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+      "warnings": [],
+      "created_at": "2025-12-27 18:27:07.570606",
+      "approved_at": null,
+      "preview_pdf_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.docx"
+    }
+  }
+]

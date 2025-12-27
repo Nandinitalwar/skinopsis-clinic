@@ -1,0 +1,41 @@
+[
+  {
+    "timestamp": "2025-12-27T16:51:50.650521",
+    "data": {
+      "id": "481b925b-76b9-4b46-89c9-e2f82e13c451",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "Sarah Johnson",
+        "age_years": "34",
+        "sex": "Female",
+        "diagnosis": "",
+        "symptom_duration": "34 year",
+        "presenting_symptoms": [
+          "acute bronchitis",
+          "for about 5 days"
+        ],
+        "allergies": ". She is not",
+        "current_medications": "any medications",
+        "past_medical_history": ". I am",
+        "medications": [
+          {
+            "title": "s",
+            "instructions": []
+          }
+        ],
+        "followup_text": "in one week if symptoms persist or worsen",
+        "date": ""
+      },
+      "raw_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen.",
+      "clean_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen.",
+      "warnings": [
+        "Diagnosis not clearly identified in transcript"
+      ],
+      "created_at": "2025-12-27 16:51:50.638166",
+      "approved_at": null,
+      "preview_pdf_path": "../data/481b925b-76b9-4b46-89c9-e2f82e13c451_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/481b925b-76b9-4b46-89c9-e2f82e13c451_preview.docx"
+    }
+  }
+]

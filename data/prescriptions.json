@@ -1,0 +1,718 @@
+{
+  "39e47d21-ba5b-477d-9908-bf9270b46a55": {
+    "id": "39e47d21-ba5b-477d-9908-bf9270b46a55",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "34",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "34 year",
+      "presenting_symptoms": [
+        "acute bronchitis",
+        "for about 5 days"
+      ],
+      "allergies": ". She is not",
+      "current_medications": "any medications",
+      "past_medical_history": ". I am",
+      "medications": [
+        {
+          "title": "s",
+          "instructions": []
+        }
+      ],
+      "followup_text": "in one week if symptoms persist or worsen",
+      "date": ""
+    },
+    "raw_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen. Return sooner if experiencing difficulty breathing or high fever.",
+    "clean_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen. Return sooner if experiencing difficulty breathing or high fever.",
+    "warnings": [
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 15:55:57.415590",
+    "approved_at": null,
+    "preview_pdf_path": "../data/39e47d21-ba5b-477d-9908-bf9270b46a55_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/39e47d21-ba5b-477d-9908-bf9270b46a55_preview.docx"
+  },
+  "4a9e595e-529f-4385-9543-347abf756755": {
+    "id": "4a9e595e-529f-4385-9543-347abf756755",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "laser treatment",
+      "age_years": "",
+      "sex": "",
+      "diagnosis": "",
+      "symptom_duration": "",
+      "presenting_symptoms": [],
+      "allergies": "",
+      "current_medications": "",
+      "past_medical_history": "",
+      "medications": [
+        {
+          "title": "19-year-old",
+          "instructions": []
+        }
+      ],
+      "followup_text": "",
+      "date": ""
+    },
+    "raw_transcript": "25-year-old patient laser treatment 19-year-old. ",
+    "clean_transcript": "25-year-old patient laser treatment 19-year-old. ",
+    "warnings": [
+      "Age not found in transcript",
+      "Sex not specified in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 16:30:22.821116",
+    "approved_at": null,
+    "preview_pdf_path": "../data/4a9e595e-529f-4385-9543-347abf756755_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/4a9e595e-529f-4385-9543-347abf756755_preview.docx"
+  },
+  "86c64e4a-e556-4c45-af12-79d6f78fb353": {
+    "id": "86c64e4a-e556-4c45-af12-79d6f78fb353",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "data",
+      "age_years": "",
+      "sex": "",
+      "diagnosis": "",
+      "symptom_duration": "",
+      "presenting_symptoms": [],
+      "allergies": "",
+      "current_medications": "",
+      "past_medical_history": "",
+      "medications": [],
+      "followup_text": "",
+      "date": ""
+    },
+    "raw_transcript": "test patient data",
+    "clean_transcript": "test patient data",
+    "warnings": [
+      "Age not found in transcript",
+      "Sex not specified in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 16:31:11.239134",
+    "approved_at": null,
+    "preview_pdf_path": "../data/86c64e4a-e556-4c45-af12-79d6f78fb353_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/86c64e4a-e556-4c45-af12-79d6f78fb353_preview.docx"
+  },
+  "b158e7f6-4c1f-4d98-a24c-83b202440ef5": {
+    "id": "b158e7f6-4c1f-4d98-a24c-83b202440ef5",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "data",
+      "age_years": "",
+      "sex": "",
+      "diagnosis": "",
+      "symptom_duration": "",
+      "presenting_symptoms": [],
+      "allergies": "",
+      "current_medications": "",
+      "past_medical_history": "",
+      "medications": [],
+      "followup_text": "",
+      "date": ""
+    },
+    "raw_transcript": "test patient data",
+    "clean_transcript": "test patient data",
+    "warnings": [
+      "Age not found in transcript",
+      "Sex not specified in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 16:31:55.955642",
+    "approved_at": null,
+    "preview_pdf_path": "../data/b158e7f6-4c1f-4d98-a24c-83b202440ef5_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/b158e7f6-4c1f-4d98-a24c-83b202440ef5_preview.docx"
+  },
+  "b430c785-0548-4ab4-980e-f6a9fd356b1c": {
+    "id": "b430c785-0548-4ab4-980e-f6a9fd356b1c",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "",
+      "age_years": "19",
+      "sex": "",
+      "diagnosis": "",
+      "symptom_duration": "19 years",
+      "presenting_symptoms": [],
+      "allergies": "",
+      "current_medications": "",
+      "past_medical_history": "",
+      "medications": [],
+      "followup_text": "",
+      "date": ""
+    },
+    "raw_transcript": "jiya kapadia 19 years old diagnosed with laser hair removal",
+    "clean_transcript": "jiya kapadia 19 years old diagnosed with laser hair removal",
+    "warnings": [
+      "Patient name not found in transcript",
+      "Sex not specified in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 16:44:20.094592",
+    "approved_at": null,
+    "preview_pdf_path": "../data/b430c785-0548-4ab4-980e-f6a9fd356b1c_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/b430c785-0548-4ab4-980e-f6a9fd356b1c_preview.docx"
+  },
+  "a6be5049-dc03-42e6-a1bb-679d915a6a1c": {
+    "id": "a6be5049-dc03-42e6-a1bb-679d915a6a1c",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "name is Nini Talwar",
+      "age_years": "19",
+      "sex": "Female",
+      "diagnosis": "laser hair removal chin",
+      "symptom_duration": "",
+      "presenting_symptoms": [],
+      "allergies": "",
+      "current_medications": "",
+      "past_medical_history": "",
+      "medications": [],
+      "followup_text": "",
+      "date": ""
+    },
+    "raw_transcript": "Patient name is Nini Talwar, female. Diagnosis is laser hair removal chin. ",
+    "clean_transcript": "Patient name is Nini Talwar, female. Diagnosis is laser hair removal chin. ",
+    "warnings": [
+      "Age not found in transcript"
+    ],
+    "created_at": "2025-12-27 16:44:52.308694",
+    "approved_at": null,
+    "preview_pdf_path": "../data/a6be5049-dc03-42e6-a1bb-679d915a6a1c_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/a6be5049-dc03-42e6-a1bb-679d915a6a1c_preview.docx"
+  },
+  "481b925b-76b9-4b46-89c9-e2f82e13c451": {
+    "id": "481b925b-76b9-4b46-89c9-e2f82e13c451",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "34",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "34 year",
+      "presenting_symptoms": [
+        "acute bronchitis",
+        "for about 5 days"
+      ],
+      "allergies": ". She is not",
+      "current_medications": "any medications",
+      "past_medical_history": ". I am",
+      "medications": [
+        {
+          "title": "s",
+          "instructions": []
+        }
+      ],
+      "followup_text": "in one week if symptoms persist or worsen",
+      "date": ""
+    },
+    "raw_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen.",
+    "clean_transcript": "Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen.",
+    "warnings": [
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 16:51:50.638166",
+    "approved_at": null,
+    "preview_pdf_path": "../data/481b925b-76b9-4b46-89c9-e2f82e13c451_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/481b925b-76b9-4b46-89c9-e2f82e13c451_preview.docx"
+  },
+  "932e05cd-1bb3-44eb-a1d6-18285c5f81b4": {
+    "id": "932e05cd-1bb3-44eb-a1d6-18285c5f81b4",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "34",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "34 year",
+      "presenting_symptoms": [
+        "acute bacterial sinusitis",
+        "for 5\r\n  days"
+      ],
+      "allergies": ". She is",
+      "current_medications": "ibuprofen 400mg as needed for pain",
+      "past_medical_history": ".\r\n\r\n  I am",
+      "medications": [
+        {
+          "title": "ing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10 days",
+          "instructions": []
+        }
+      ],
+      "followup_text": "in 7-10 days if symptoms do not improve or worsen",
+      "date": ""
+    },
+    "raw_transcript": "  Patient is Sarah Johnson, 34 year old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n  days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain. No significant\r\n  past medical history.\r\n\r\n  I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10 days. She should also use saline\r\n  nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and inflammation.\r\n\r\n  Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if develops severe headache, vision\r\n   changes, or high fever. Avoid dairy products while taking antibiotics.\r\n",
+    "clean_transcript": "  Patient is Sarah Johnson, 34 year old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n  days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain. No significant\r\n  past medical history.\r\n\r\n  I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10 days. She should also use saline\r\n  nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and inflammation.\r\n\r\n  Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if develops severe headache, vision\r\n   changes, or high fever. Avoid dairy products while taking antibiotics.\r\n",
+    "warnings": [
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 16:56:28.391772",
+    "approved_at": null,
+    "preview_pdf_path": "../data/932e05cd-1bb3-44eb-a1d6-18285c5f81b4_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/932e05cd-1bb3-44eb-a1d6-18285c5f81b4_preview.docx"
+  },
+  "371c9d9d-3fbd-438d-afe4-695c4c069ec4": {
+    "id": "371c9d9d-3fbd-438d-afe4-695c4c069ec4",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "5\r\n   days",
+      "presenting_symptoms": [
+        "acute bacterial sinusitis",
+        "for 5\r\n   days"
+      ],
+      "allergies": ". She is",
+      "current_medications": "ibuprofen 400mg as needed for\r\n  pain relief",
+      "past_medical_history": ".\r\n\r\n  I am",
+      "medications": [
+        {
+          "title": "ing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10 days",
+          "instructions": []
+        }
+      ],
+      "followup_text": "in 7-10 days if symptoms do not improve or worsen",
+      "date": ""
+    },
+    "raw_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure over the maxillary\r\n   sinuses, headache, and reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for\r\n  pain relief. No significant past medical history.\r\n\r\n  I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10 days. She should also use saline\r\n  nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and inflammation.\r\n\r\n  Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops severe headache,\r\n  vision changes, or high fever above 101\u00b0F. Avoid dairy products while taking antibiotics to prevent absorption issues.",
+    "clean_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure over the maxillary\r\n   sinuses, headache, and reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for\r\n  pain relief. No significant past medical history.\r\n\r\n  I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10 days. She should also use saline\r\n  nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and inflammation.\r\n\r\n  Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops severe headache,\r\n  vision changes, or high fever above 101\u00b0F. Avoid dairy products while taking antibiotics to prevent absorption issues.",
+    "warnings": [
+      "Age not found in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 17:01:11.888459",
+    "approved_at": null,
+    "preview_pdf_path": "../data/371c9d9d-3fbd-438d-afe4-695c4c069ec4_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/371c9d9d-3fbd-438d-afe4-695c4c069ec4_preview.docx"
+  },
+  "151f5512-46a2-4b0f-bbef-679bdba1dcc1": {
+    "id": "151f5512-46a2-4b0f-bbef-679bdba1dcc1",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "5\r\n   days",
+      "presenting_symptoms": [
+        "acute bacterial sinusitis",
+        "for 5\r\n   days"
+      ],
+      "allergies": ". She is",
+      "current_medications": "ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": ". I am",
+      "medications": [
+        {
+          "title": "ing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10",
+          "instructions": [
+            "days"
+          ]
+        }
+      ],
+      "followup_text": "in 7-10 days if symptoms do not improve or worsen",
+      "date": ""
+    },
+    "raw_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.\r\n",
+    "clean_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.\r\n",
+    "warnings": [
+      "Age not found in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 17:02:51.818620",
+    "approved_at": null,
+    "preview_pdf_path": "../data/151f5512-46a2-4b0f-bbef-679bdba1dcc1_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/151f5512-46a2-4b0f-bbef-679bdba1dcc1_preview.docx"
+  },
+  "56870be9-f279-470c-a50a-0d8f2c03dd9b": {
+    "id": "56870be9-f279-470c-a50a-0d8f2c03dd9b",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "5\r\n   days",
+      "presenting_symptoms": [
+        "acute bacterial sinusitis",
+        "for 5\r\n   days"
+      ],
+      "allergies": ". She is",
+      "current_medications": "ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": ". I am",
+      "medications": [
+        {
+          "title": "ing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10",
+          "instructions": [
+            "days"
+          ]
+        }
+      ],
+      "followup_text": "in 7-10 days if symptoms do not improve or worsen",
+      "date": ""
+    },
+    "raw_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.\r\n",
+    "clean_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.\r\n",
+    "warnings": [
+      "Age not found in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 17:03:02.254496",
+    "approved_at": null,
+    "preview_pdf_path": "../data/56870be9-f279-470c-a50a-0d8f2c03dd9b_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/56870be9-f279-470c-a50a-0d8f2c03dd9b_preview.docx"
+  },
+  "aab5366c-c3b9-45b5-b3f7-a4cb16585ac9": {
+    "id": "aab5366c-c3b9-45b5-b3f7-a4cb16585ac9",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "5\r\n   days",
+      "presenting_symptoms": [
+        "acute bacterial sinusitis",
+        "for 5\r\n   days"
+      ],
+      "allergies": ". She is",
+      "current_medications": "ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": ". I am",
+      "medications": [
+        {
+          "title": "ing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10",
+          "instructions": [
+            "days"
+          ]
+        }
+      ],
+      "followup_text": "in 7-10 days if symptoms do not improve or worsen",
+      "date": ""
+    },
+    "raw_transcript": "  Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.",
+    "clean_transcript": "  Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.",
+    "warnings": [
+      "Age not found in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 17:14:40.666801",
+    "approved_at": null,
+    "preview_pdf_path": "../data/aab5366c-c3b9-45b5-b3f7-a4cb16585ac9_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/aab5366c-c3b9-45b5-b3f7-a4cb16585ac9_preview.docx"
+  },
+  "281e0d2b-a033-4827-81d7-a5f7a68962ba": {
+    "id": "281e0d2b-a033-4827-81d7-a5f7a68962ba",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "5\r\n   days",
+      "presenting_symptoms": [
+        "acute bacterial sinusitis",
+        "for 5\r\n   days"
+      ],
+      "allergies": ". She is",
+      "current_medications": "ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": ". I am",
+      "medications": [
+        {
+          "title": "ing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10",
+          "instructions": [
+            "days"
+          ]
+        }
+      ],
+      "followup_text": "in 7-10 days if symptoms do not improve or worsen",
+      "date": ""
+    },
+    "raw_transcript": "  Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.",
+    "clean_transcript": "  Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.",
+    "warnings": [
+      "Age not found in transcript",
+      "Diagnosis not clearly identified in transcript"
+    ],
+    "created_at": "2025-12-27 17:17:39.376617",
+    "approved_at": null,
+    "preview_pdf_path": "../data/281e0d2b-a033-4827-81d7-a5f7a68962ba_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/281e0d2b-a033-4827-81d7-a5f7a68962ba_preview.docx"
+  },
+  "f7982f41-711e-484c-bfcb-b3529a252706": {
+    "id": "f7982f41-711e-484c-bfcb-b3529a252706",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "34",
+      "sex": "Female",
+      "diagnosis": "Acute Bacterial Sinusitis",
+      "symptom_duration": "5\r\n   days",
+      "presenting_symptoms": [
+        "Nasal Congestion",
+        "Thick Yellow Nasal Discharge",
+        "Facial Pain",
+        "Pressure",
+        "Headache",
+        "And\r\n  Reduced Sense Of Smell"
+      ],
+      "allergies": "No known allergies",
+      "current_medications": "ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": "No significant past medical history",
+      "medications": [
+        {
+          "title": "Amoxicillin-Clavulanate 875Mg/125Mg",
+          "instructions": [
+            "Twice daily with food for 10\r\n  days"
+          ]
+        }
+      ],
+      "followup_text": "in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever",
+      "date": "2025-12-27"
+    },
+    "raw_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.",
+    "clean_transcript": " Patient is Sarah Johnson, a 34-year-old female presenting with acute bacterial sinusitis. She has been experiencing symptoms for 5\r\n   days. Her presenting symptoms include nasal congestion, thick yellow nasal discharge, facial pain and pressure, headache, and\r\n  reduced sense of smell. She has no known allergies. She is currently taking ibuprofen 400mg as needed for pain relief. No\r\n  significant past medical history. I am prescribing Amoxicillin-Clavulanate 875mg/125mg to be taken twice daily with food for 10\r\n  days. She should also use saline nasal rinses twice daily and continue ibuprofen 400mg every 6 hours as needed for pain and\r\n  inflammation. Patient should follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if she develops\r\n  severe headache, vision changes, or high fever.",
+    "warnings": [],
+    "created_at": "2025-12-27 18:00:45.366271",
+    "approved_at": null,
+    "preview_pdf_path": "../data/f7982f41-711e-484c-bfcb-b3529a252706_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/f7982f41-711e-484c-bfcb-b3529a252706_preview.docx"
+  },
+  "9d827605-2e0c-4a15-b708-ded946c9bb42": {
+    "id": "9d827605-2e0c-4a15-b708-ded946c9bb42",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "34",
+      "sex": "Female",
+      "diagnosis": "Acute bacterial sinusitis",
+      "symptom_duration": "5 days",
+      "presenting_symptoms": [
+        "Nasal congestion",
+        "Thick yellow nasal discharge",
+        "Facial pain and pressure",
+        "Headache",
+        "Reduced sense of smell"
+      ],
+      "allergies": "No known allergies",
+      "current_medications": "Ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": "No significant past medical history",
+      "medications": [
+        {
+          "title": "Amoxicillin-Clavulanate 875mg/125mg",
+          "instructions": [
+            "Take twice daily with food",
+            "Continue for 10 days"
+          ]
+        },
+        {
+          "title": "Saline nasal rinses",
+          "instructions": [
+            "Use twice daily"
+          ]
+        }
+      ],
+      "followup_text": "Follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if severe headache, vision changes, or high fever develops.",
+      "date": "2025-12-27"
+    },
+    "raw_transcript": "Go. Anya, mascara, 18-year female, diagnosis: acne, persistent grade 2, allergies to sulphur and penicillin, current medication: none, medical history: none, diag: baskari. ",
+    "clean_transcript": "Go. Anya, mascara, 18-year female, diagnosis: acne, persistent grade 2, allergies to sulphur and penicillin, current medication: none, medical history: none, diag: baskari. ",
+    "warnings": [
+      "Using demo data - regex extraction incomplete"
+    ],
+    "created_at": "2025-12-27 18:24:08.578813",
+    "approved_at": null,
+    "preview_pdf_path": "../data/9d827605-2e0c-4a15-b708-ded946c9bb42_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/9d827605-2e0c-4a15-b708-ded946c9bb42_preview.docx"
+  },
+  "872f4446-24d7-4e15-81a5-06a14ec1b828": {
+    "id": "872f4446-24d7-4e15-81a5-06a14ec1b828",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "34",
+      "sex": "Female",
+      "diagnosis": "Acute bacterial sinusitis",
+      "symptom_duration": "5 days",
+      "presenting_symptoms": [
+        "Nasal congestion",
+        "Thick yellow nasal discharge",
+        "Facial pain and pressure",
+        "Headache",
+        "Reduced sense of smell"
+      ],
+      "allergies": "No known allergies",
+      "current_medications": "Ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": "No significant past medical history",
+      "medications": [
+        {
+          "title": "Amoxicillin-Clavulanate 875mg/125mg",
+          "instructions": [
+            "Take twice daily with food",
+            "Continue for 10 days"
+          ]
+        },
+        {
+          "title": "Saline nasal rinses",
+          "instructions": [
+            "Use twice daily"
+          ]
+        }
+      ],
+      "followup_text": "Follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if severe headache, vision changes, or high fever develops.",
+      "date": "2025-12-27"
+    },
+    "raw_transcript": "Anya mascara",
+    "clean_transcript": "Anya mascara",
+    "warnings": [
+      "Using demo data - regex extraction incomplete"
+    ],
+    "created_at": "2025-12-27 18:24:25.301540",
+    "approved_at": null,
+    "preview_pdf_path": "../data/872f4446-24d7-4e15-81a5-06a14ec1b828_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/872f4446-24d7-4e15-81a5-06a14ec1b828_preview.docx"
+  },
+  "4a3f9869-fd09-4b56-b3ed-854ad693ef6b": {
+    "id": "4a3f9869-fd09-4b56-b3ed-854ad693ef6b",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Sarah Johnson",
+      "age_years": "34",
+      "sex": "Female",
+      "diagnosis": "Acute bacterial sinusitis",
+      "symptom_duration": "5 days",
+      "presenting_symptoms": [
+        "Nasal congestion",
+        "Thick yellow nasal discharge",
+        "Facial pain and pressure",
+        "Headache",
+        "Reduced sense of smell"
+      ],
+      "allergies": "No known allergies",
+      "current_medications": "Ibuprofen 400mg as needed for pain relief",
+      "past_medical_history": "No significant past medical history",
+      "medications": [
+        {
+          "title": "Amoxicillin-Clavulanate 875mg/125mg",
+          "instructions": [
+            "Take twice daily with food",
+            "Continue for 10 days"
+          ]
+        },
+        {
+          "title": "Saline nasal rinses",
+          "instructions": [
+            "Use twice daily"
+          ]
+        }
+      ],
+      "followup_text": "Follow up in 7-10 days if symptoms do not improve or worsen. Return immediately if severe headache, vision changes, or high fever develops.",
+      "date": "2025-12-27"
+    },
+    "raw_transcript": "h",
+    "clean_transcript": "h",
+    "warnings": [
+      "Using demo data - regex extraction incomplete"
+    ],
+    "created_at": "2025-12-27 18:24:59.850900",
+    "approved_at": null,
+    "preview_pdf_path": "../data/4a3f9869-fd09-4b56-b3ed-854ad693ef6b_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/4a3f9869-fd09-4b56-b3ed-854ad693ef6b_preview.docx"
+  },
+  "e3151e20-3750-4a96-bd92-0e4ef85a40e8": {
+    "id": "e3151e20-3750-4a96-bd92-0e4ef85a40e8",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "anya mascara",
+      "age_years": "18",
+      "sex": "",
+      "diagnosis": "",
+      "symptom_duration": "",
+      "presenting_symptoms": [],
+      "allergies": "",
+      "current_medications": "",
+      "past_medical_history": "",
+      "medications": [],
+      "followup_text": "",
+      "date": "2025-12-27"
+    },
+    "raw_transcript": "anya mascara 18 yers old",
+    "clean_transcript": "anya mascara 18 yers old",
+    "warnings": [],
+    "created_at": "2025-12-27 18:26:01.222823",
+    "approved_at": null,
+    "preview_pdf_path": "../data/e3151e20-3750-4a96-bd92-0e4ef85a40e8_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/e3151e20-3750-4a96-bd92-0e4ef85a40e8_preview.docx"
+  },
+  "5c055b94-4768-4200-a297-63008607d23b": {
+    "id": "5c055b94-4768-4200-a297-63008607d23b",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "hema mascara",
+      "age_years": "18",
+      "sex": "",
+      "diagnosis": "",
+      "symptom_duration": "",
+      "presenting_symptoms": [],
+      "allergies": "",
+      "current_medications": "",
+      "past_medical_history": "",
+      "medications": [],
+      "followup_text": "",
+      "date": "2025-12-27"
+    },
+    "raw_transcript": "hema mascara 18 year",
+    "clean_transcript": "hema mascara 18 year",
+    "warnings": [],
+    "created_at": "2025-12-27 18:26:17.554856",
+    "approved_at": null,
+    "preview_pdf_path": "../data/5c055b94-4768-4200-a297-63008607d23b_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/5c055b94-4768-4200-a297-63008607d23b_preview.docx"
+  },
+  "3f763572-616a-4871-9ff9-f8df69d4d640": {
+    "id": "3f763572-616a-4871-9ff9-f8df69d4d640",
+    "status": "draft",
+    "structured_data": {
+      "patient_name": "Anya",
+      "age_years": "18",
+      "sex": "Female",
+      "diagnosis": "",
+      "symptom_duration": "",
+      "presenting_symptoms": [],
+      "allergies": "Sulphur, Penicillin",
+      "current_medications": "",
+      "past_medical_history": "No Medical History",
+      "medications": [],
+      "followup_text": "",
+      "date": "2025-12-27"
+    },
+    "raw_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+    "clean_transcript": "Anya, 18 years old, Sulphur, Penicillin, No Medical History, 72 kgs. ",
+    "warnings": [],
+    "created_at": "2025-12-27 18:27:07.570606",
+    "approved_at": null,
+    "preview_pdf_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.pdf",
+    "final_pdf_path": null,
+    "docx_path": "../data/3f763572-616a-4871-9ff9-f8df69d4d640_preview.docx"
+  }
+}

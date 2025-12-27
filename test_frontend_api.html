@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prescription System Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .container { max-width: 800px; margin: 0 auto; }
+        .section { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+        textarea { width: 100%; height: 100px; margin: 10px 0; }
+        button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        .response { background: #f8f9fa; padding: 10px; margin: 10px 0; border-radius: 5px; white-space: pre-wrap; }
+        .success { border-left: 4px solid #28a745; }
+        .error { border-left: 4px solid #dc3545; }
+        .warning { border-left: 4px solid #ffc107; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏥 Prescription System Test Interface</h1>
+        
+        <div class="section">
+            <h2>1. Health Check</h2>
+            <button onclick="testHealthCheck()">Test Health Check</button>
+            <div id="health-response" class="response"></div>
+        </div>
+        
+        <div class="section">
+            <h2>2. Create Prescription from Transcript</h2>
+            <textarea id="transcript" placeholder="Enter medical transcript here...">Patient is Sarah Johnson, 34 year old female presenting with acute bronchitis. She has been experiencing symptoms for about 5 days. Her presenting symptoms include persistent dry cough, shortness of breath, mild fever, and chest discomfort. She has no known allergies. She is not currently taking any medications. No significant past medical history. I am prescribing Amoxicillin 500mg to be taken three times daily for 7 days, and Dextromethorphan cough syrup to be taken as needed for cough suppression. Patient should follow up in one week if symptoms persist or worsen. Return sooner if experiencing difficulty breathing or high fever.</textarea>
+            <button onclick="createPrescription()">Create Prescription</button>
+            <div id="create-response" class="response"></div>
+        </div>
+        
+        <div class="section">
+            <h2>3. Prescription Management</h2>
+            <input type="text" id="prescription-id" placeholder="Prescription ID" style="width: 300px; margin-right: 10px;">
+            <button onclick="getPrescription()">Get Prescription</button>
+            <button onclick="approvePrescription()">Approve Prescription</button>
+            <div id="manage-response" class="response"></div>
+        </div>
+        
+        <div class="section">
+            <h2>4. View Generated Files</h2>
+            <div id="file-links"></div>
+        </div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:8000';
+        
+        async function testHealthCheck() {
+            try {
+                const response = await fetch(`${API_BASE}/api/health`);
+                const data = await response.json();
+                
+                document.getElementById('health-response').innerHTML = JSON.stringify(data, null, 2);
+                document.getElementById('health-response').className = 'response success';
+            } catch (error) {
+                document.getElementById('health-response').innerHTML = `Error: ${error.message}`;
+                document.getElementById('health-response').className = 'response error';
+            }
+        }
+        
+        async function createPrescription() {
+            const transcript = document.getElementById('transcript').value;
+            
+            if (!transcript.trim()) {
+                alert('Please enter a transcript');
+                return;
+            }
+            
+            try {
+                const formData = new FormData();
+                formData.append('transcript', transcript);
+                
+                const response = await fetch(`${API_BASE}/api/prescriptions`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    document.getElementById('create-response').innerHTML = JSON.stringify(data, null, 2);
+                    document.getElementById('create-response').className = 'response success';
+                    
+                    // Auto-populate prescription ID
+                    document.getElementById('prescription-id').value = data.id;
+                    
+                    // Show file links
+                    const fileLinks = document.getElementById('file-links');
+                    fileLinks.innerHTML = `
+                        <p><strong>Generated Files:</strong></p>
+                        <a href="${API_BASE}${data.preview_pdf_url}" target="_blank">📄 Preview PDF</a><br>
+                        <a href="${API_BASE}/data/${data.id}_preview.docx" target="_blank">📄 Preview DOCX</a>
+                    `;
+                    
+                    if (data.warnings && data.warnings.length > 0) {
+                        document.getElementById('create-response').className = 'response warning';
+                    }
+                } else {
+                    document.getElementById('create-response').innerHTML = `Error: ${data.detail || 'Unknown error'}`;
+                    document.getElementById('create-response').className = 'response error';
+                }
+            } catch (error) {
+                document.getElementById('create-response').innerHTML = `Error: ${error.message}`;
+                document.getElementById('create-response').className = 'response error';
+            }
+        }
+        
+        async function getPrescription() {
+            const prescriptionId = document.getElementById('prescription-id').value;
+            
+            if (!prescriptionId.trim()) {
+                alert('Please enter a prescription ID');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/prescriptions/${prescriptionId}`);
+                const data = await response.json();
+                
+                if (response.ok) {
+                    document.getElementById('manage-response').innerHTML = JSON.stringify(data, null, 2);
+                    document.getElementById('manage-response').className = 'response success';
+                } else {
+                    document.getElementById('manage-response').innerHTML = `Error: ${data.detail || 'Unknown error'}`;
+                    document.getElementById('manage-response').className = 'response error';
+                }
+            } catch (error) {
+                document.getElementById('manage-response').innerHTML = `Error: ${error.message}`;
+                document.getElementById('manage-response').className = 'response error';
+            }
+        }
+        
+        async function approvePrescription() {
+            const prescriptionId = document.getElementById('prescription-id').value;
+            
+            if (!prescriptionId.trim()) {
+                alert('Please enter a prescription ID');
+                return;
+            }
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/prescriptions/${prescriptionId}/approve`, {
+                    method: 'POST'
+                });
+                const data = await response.json();
+                
+                if (response.ok) {
+                    document.getElementById('manage-response').innerHTML = JSON.stringify(data, null, 2);
+                    document.getElementById('manage-response').className = 'response success';
+                    
+                    // Show final PDF link
+                    const fileLinks = document.getElementById('file-links');
+                    fileLinks.innerHTML += `
+                        <br><strong>Final Approved PDF:</strong><br>
+                        <a href="${data.final_pdf_url}" target="_blank">📄 Final PDF (Approved)</a>
+                    `;
+                } else {
+                    document.getElementById('manage-response').innerHTML = `Error: ${data.detail || 'Unknown error'}`;
+                    document.getElementById('manage-response').className = 'response error';
+                }
+            } catch (error) {
+                document.getElementById('manage-response').innerHTML = `Error: ${error.message}`;
+                document.getElementById('manage-response').className = 'response error';
+            }
+        }
+        
+        // Auto-run health check on page load
+        window.onload = testHealthCheck;
+    </script>
+</body>
+</html>

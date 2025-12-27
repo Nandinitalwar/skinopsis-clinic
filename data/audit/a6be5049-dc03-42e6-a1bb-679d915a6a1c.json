@@ -1,0 +1,64 @@
+[
+  {
+    "timestamp": "2025-12-27T16:44:52.315345",
+    "data": {
+      "id": "a6be5049-dc03-42e6-a1bb-679d915a6a1c",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "name is Nini Talwar",
+        "age_years": "",
+        "sex": "Female",
+        "diagnosis": "laser hair removal chin",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "",
+        "current_medications": "",
+        "past_medical_history": "",
+        "medications": [],
+        "followup_text": "",
+        "date": ""
+      },
+      "raw_transcript": "Patient name is Nini Talwar, female. Diagnosis is laser hair removal chin. ",
+      "clean_transcript": "Patient name is Nini Talwar, female. Diagnosis is laser hair removal chin. ",
+      "warnings": [
+        "Age not found in transcript"
+      ],
+      "created_at": "2025-12-27 16:44:52.308694",
+      "approved_at": null,
+      "preview_pdf_path": "../data/a6be5049-dc03-42e6-a1bb-679d915a6a1c_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/a6be5049-dc03-42e6-a1bb-679d915a6a1c_preview.docx"
+    }
+  },
+  {
+    "timestamp": "2025-12-27T16:45:03.755038",
+    "data": {
+      "id": "a6be5049-dc03-42e6-a1bb-679d915a6a1c",
+      "status": "draft",
+      "structured_data": {
+        "patient_name": "name is Nini Talwar",
+        "age_years": "19",
+        "sex": "Female",
+        "diagnosis": "laser hair removal chin",
+        "symptom_duration": "",
+        "presenting_symptoms": [],
+        "allergies": "",
+        "current_medications": "",
+        "past_medical_history": "",
+        "medications": [],
+        "followup_text": "",
+        "date": ""
+      },
+      "raw_transcript": "Patient name is Nini Talwar, female. Diagnosis is laser hair removal chin. ",
+      "clean_transcript": "Patient name is Nini Talwar, female. Diagnosis is laser hair removal chin. ",
+      "warnings": [
+        "Age not found in transcript"
+      ],
+      "created_at": "2025-12-27 16:44:52.308694",
+      "approved_at": null,
+      "preview_pdf_path": "../data/a6be5049-dc03-42e6-a1bb-679d915a6a1c_preview.pdf",
+      "final_pdf_path": null,
+      "docx_path": "../data/a6be5049-dc03-42e6-a1bb-679d915a6a1c_preview.docx"
+    }
+  }
+]
